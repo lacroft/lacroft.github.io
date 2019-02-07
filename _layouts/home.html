@@ -1,0 +1,11 @@
+---
+layout: "wrapper"
+---
+{% for post in site.posts %}
+  <li id="posts" class="nostylelist">
+    <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
+    <div>
+      {{ post.content }}
+    </div>
+  </li>
+{% endfor %}

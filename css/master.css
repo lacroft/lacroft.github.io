@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html, body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Major Mono Display', monospace;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', sans-serif;
+}
+
+#fixedheader{
+  margin: 0 auto;
+  position: fixed;
+  background-color: rgb(253, 255, 253);
+  width: 100%;
+  height: 50px;
+  top: 0;
+  box-shadow: 0 0 5px #497077;
+  z-index: 1;
+}
+
+#title {
+  font: 100 40px/50px 'Roboto Slab', sans-serif;
+  color: #55828b !important;
+  letter-spacing: 2px;
+}
+
+#main {
+  font: 200 17px/21px 'Oswald', sans-serif;
+  margin: 49px auto 0 auto;
+  background-color: rgb(253, 255, 253, .9);
+  color: rgb(50, 60, 50);
+  padding: 0 5px 0 5px;
+  width: 65%;
+  min-height: 100%;
+  box-shadow: 0 0 3px;
+  position: relative;
+}
+
+#main p {
+  padding-bottom: 20px;
+}
+
+#footer {
+  background-color: rgb(253, 255, 253);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 22px;
+  box-shadow: 0 0 5px;
+  font: 100 19px/22px 'Roboto Slab', sans-serif;
+  color: #497077;
+}
+
+#pagecontent {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font: bold 30px 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h2{
+  font: bold 28px 'Oswald', sans-serif;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#nav{
+  font: 22px/50px 'Open Sans Condensed', sans-serif;
+  margin-right: 20px;
+  list-style: none;
+  letter-spacing: 2px;
+}
+
+#nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.active{
+  font-weight: bold;
+}
+
+#posts{
+  border-bottom: 1px solid rgb(200, 210, 200);
+  margin-bottom: 1px;
+  padding: 10px;
+}
+
+.floatleft {
+  display: block;
+  float: left;
+}
+
+.floatright {
+  display: block;
+  float: right;
+}
+
+.extender {
+  height: 100%;
+}
+
+li a {
+  text-align: center;
+}
+
+.nostylelist {
+  list-style: none
+}
+
+.centreimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link, a:visited{
+  color: #55828b;
+}
+
+a:hover{
+  color: #87bba2;
+}
+
+a:current {
+  text-decoration: underline;
+}
+
+.nostylelink, .nostylelink:link, .nostylelink:hover, .nostylelink:visited {
+  text-decoration: none;
+  color: inherit;
+}
